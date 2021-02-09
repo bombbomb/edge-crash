@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         height: 500,
       };
       if (event.target.id.includes('popup')) {
-        options.type = 'normal';
+        options.type = 'popup';
       }
       chrome.windows.create(options);
       console.log('window created with options', options);

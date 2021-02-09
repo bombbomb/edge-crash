@@ -1,0 +1,23 @@
+{
+  "browser_action": {
+    "default_title": "Crash Demo",
+    "default_icon": "icons/icon38.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+  ],
+  "description": "Demo extension to show MS Edge crash",
+  "icons": {
+    "16": "icons/icon16.png",
+    "38": "icons/icon38.png"
+  },
+  "content_security_policy": "script-src 'self'",
+  "manifest_version": 2,
+  "name": "Edge Crash Demo",
+  "permissions": [
+
+  ],
+  "version": "1.0.0",
+  "web_accessible_resources": [
+  ]
+}

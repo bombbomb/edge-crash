@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crash Demo</title>
+  <style>
+    html, body {
+      box-sizing: border-box;
+    }
+    div {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    button {
+      cursor: pointer;
+      margin-bottom: 1em;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div>
+    <button id="create-popup">Launch Window: popup</button>
+    <button id="create-normal">Launch Window: normal</button>
+  </div>
+</body>
+</html>

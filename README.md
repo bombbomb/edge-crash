@@ -15,6 +15,8 @@ To test:
 
 The "Launch Window: normal" button will create a window, but without the `type: 'popup'` option.
 
+Crash occurs in 88.0.705.63
+
 # Icons
 
 edge by LUTFI GANI AL ACHMAD from the Noun Project under Creative Commons

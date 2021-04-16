@@ -1,5 +1,7 @@
 # MS Edge Crash demo
 
+**Note:** Looks like this is fixed in Edge 90.
+
 This demonstrates a browser-crashing event with `navigator.getUserMedia()` while in a window created by a browser extension with `type: popup`.
 
 ## Usage

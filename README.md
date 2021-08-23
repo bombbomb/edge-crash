@@ -1,6 +1,5 @@
 # MS Edge Crash demo
 
-**Note:** Looks like this is fixed in Edge 90.
 
 This demonstrates a browser-crashing event with `navigator.getUserMedia()` while in a window created by a browser extension with `type: popup`.
 
@@ -17,7 +16,12 @@ To test:
 
 The "Launch Window: normal" button will create a window, but without the `type: 'popup'` option.
 
-Crash occurs in 88.0.705.63
+Crash occurs in 
+
+- 88.0.705.63
+- 92.0.902.78
+
+Crash was fixed in Edge 90
 
 # Icons
 

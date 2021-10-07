@@ -20,6 +20,8 @@ Crash occurs in
 
 - 88.0.705.63
 - 92.0.902.78
+- 93
+- 94
 
 Crash was fixed in Edge 90
 
